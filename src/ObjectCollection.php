@@ -21,6 +21,11 @@ class ObjectCollection
     private $objects = [];
 
     /**
+     * @var int
+     */
+    private $lastInsertKey = 0;
+
+    /**
      * ObjectCollection constructor.
      * @param int $limit
      */
@@ -36,5 +41,7 @@ class ObjectCollection
         }
 
         $this->objects[] = $object;
+
+        $this->lastInsertKey = array_key_last($this->objects);
     }
 }
