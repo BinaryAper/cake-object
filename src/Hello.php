@@ -1,5 +1,5 @@
 <?php
-namespace CakeObject\HelloComposer;
+namespace Binaper\CakeObject;
 
 /**
  * Class Hello

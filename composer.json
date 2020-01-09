@@ -1,0 +1,30 @@
+{
+    "name": "bin-aper/cake-object",
+    "description": "Create dynamic layered object",
+    "type": "package",
+    "require": {
+        "php": ">=7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.3"
+    },
+    "license": "mit",
+    "authors": [
+        {
+            "name": "Yurii Dovbysh",
+            "email": "yurii.dovbish@gmail.com",
+            "homepage": "https://github.com/BinaryAper"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+          "Binaper\\CakeObject\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Binaper\\CakeObject\\": "tests/"
+        }
+    }
+}
